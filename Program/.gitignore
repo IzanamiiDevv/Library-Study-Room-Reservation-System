@@ -1,0 +1,56 @@
+## Visual Studio / .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## Rider / VS Code
+.idea/
+.vscode/
+*.swp
+
+## Build results
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Bb]uilds/
+artifacts/
+
+## MSTest / test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Application data (do not commit local/user data)
+LibraryData.xlsx
+
+## Windows / OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Misc
+*.pdb
+*.cache
+*.tmp
+*.bak
